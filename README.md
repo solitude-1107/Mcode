@@ -1,48 +1,48 @@
 # MCode
 
-A terminal-based AI coding assistant, similar to Claude Code.
+基于终端的 AI 编程助手，类似 Claude Code。
 
-## Features
+## 功能特性
 
-- **Multi-model support**: Works with Anthropic Claude, OpenAI, and OpenAI-compatible APIs
-- **Tool use**: Read/write files, execute commands, search code
-- **Streaming responses**: Real-time token-by-token output
-- **Permission system**: Configurable safety modes
-- **MCP integration**: Extend with Model Context Protocol servers
-- **Skills system**: Create and share reusable prompts
+- **多模型支持**: 支持 Anthropic Claude、OpenAI 及 OpenAI 兼容 API
+- **工具调用**: 读写文件、执行命令、搜索代码
+- **流式响应**: 实时逐 token 输出
+- **权限系统**: 可配置的安全模式
+- **MCP 集成**: 通过 Model Context Protocol 扩展功能
+- **技能系统**: 创建和分享可复用的提示词
 
-## Installation
+## 安装
 
 ```bash
 pip install mcode
 ```
 
-Or with `uv`:
+或使用 `uv`:
 
 ```bash
 uv pip install mcode
 ```
 
-## Quick Start
+## 快速开始
 
-1. Copy the config example:
+1. 复制配置示例：
 
 ```bash
 cp .mcode/config.yaml.example .mcode/config.yaml
 ```
 
-2. Edit `.mcode/config.yaml` and add your API key
+2. 编辑 `.mcode/config.yaml`，填入你的 API Key
 
-3. Run:
+3. 运行：
 
 ```bash
 mcode
 ```
 
-## Configuration
+## 配置
 
-See [`.mcode/config.yaml.example`](.mcode/config.yaml.example) for all available options.
+参见 [`.mcode/config.yaml.example`](.mcode/config.yaml.example) 了解所有可用选项。
 
-## License
+## 许可证
 
 MIT
