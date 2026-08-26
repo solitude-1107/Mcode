@@ -186,7 +186,7 @@ mcode --remote
 ├── .mcode/
 │   ├── config.yaml          # 项目配置
 │   ├── permissions.yaml     # 项目权限规则
-│   ├── permissions.local.yaml  # 本地权限规则（不上传）
+│   ├── permissions.local.yaml  # 本地权限规则
 │   ├── sessions/            # 会话记录
 │   ├── skills/              # 技能定义
 │   └── debug.log            # 调试日志
@@ -211,12 +211,6 @@ mcode --remote
 
 ```bash
 uv pip install -e ".[dev]"
-```
-
-### 运行测试
-
-```bash
-pytest
 ```
 
 ## 许可证
