@@ -1,12 +1,12 @@
 # MCode
 
-基于终端的 AI 编程助手，类似 Claude Code。支持多种 LLM 模型，具备文件读写、命令执行、代码搜索等能力，帮助你高效完成编程任务。
+基于终端的 AI 编程助手。支持多种 LLM 模型，具备文件读写、命令执行、代码搜索等能力，帮助你高效完成编程任务。
 
 ## 功能特性
 
 ### 核心能力
 
-- **多模型支持**: Anthropic Claude、OpenAI、OpenAI 兼容 API（如 DeepSeek、Moonshot 等）
+- **多模型支持**: Anthropic Claude、OpenAI、OpenAI 兼容 API（如 DeepSeek、GLM 等）
 - **流式响应**: 实时逐 token 输出，即时查看生成结果
 - **工具调用**: 读写文件、执行 Shell 命令、搜索代码
 - **思考模式**: 支持 Claude extended thinking，展示推理过程
